@@ -2,7 +2,9 @@
   "routes": [
     {
       "route": "/",
-      "allowedRoles": ["authenticated", "cdsuser"]
+      "allowedRoles": [
+        "cdsuser"
+      ]
     },
     {
       "route": "/login",
