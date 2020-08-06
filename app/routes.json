@@ -1,0 +1,17 @@
+{
+    "routes": [
+        {
+            "route": "/*",
+            "allowedRoles": [
+                "authenticated"
+            ]
+        },
+        {
+            "route": "/login",
+            "serve": "/.auth/login/aad"
+        }
+    ],
+    "mimeTypes": {
+        "custom": "text/html"
+    }
+}
