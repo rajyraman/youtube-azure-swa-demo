@@ -10,5 +10,9 @@
 <body>
     <h2>Hello from Azure SWA</h2>
 </body>
-
+<script>
+    fetch("/api/HelloWorldFunctionApp")
+      .then((x) => x.json())
+      .then((x) => console.log(x));
+  </script>
 </html>
