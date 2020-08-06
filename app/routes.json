@@ -1,0 +1,18 @@
+{
+  "routes": [
+    {
+      "route": "/about",
+      "serve": "about.html",
+      "allowedRoles": [
+        "cdsuser"
+      ]
+    },
+    {
+      "route": "/login",
+      "serve": "/.auth/login/aad"
+    }
+  ],
+  "mimeTypes": {
+    "custom": "text/html"
+  }
+}
