@@ -1,9 +1,9 @@
 {
   "routes": [
     {
-      "route": "/about",
+      "route": "/",
       "allowedRoles": [
-        "cdsuser"
+        "authenticated"
       ]
     },
     {
