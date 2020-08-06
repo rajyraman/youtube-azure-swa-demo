@@ -1,17 +1,15 @@
 {
-    "routes": [
-        {
-            "route": "/",
-            "allowedRoles": [
-                "authenticated"
-            ]
-        },
-        {
-            "route": "/login",
-            "serve": "/.auth/login/aad"
-        }
-    ],
-    "mimeTypes": {
-        "custom": "text/html"
+  "routes": [
+    {
+      "route": "/",
+      "allowedRoles": ["authenticated", "cdsuser"]
+    },
+    {
+      "route": "/login",
+      "serve": "/.auth/login/aad"
     }
+  ],
+  "mimeTypes": {
+    "custom": "text/html"
+  }
 }
