@@ -1,9 +1,10 @@
 {
   "routes": [
     {
-      "route": "/",
+      "route": "/about",
+      "serve": "about.html",
       "allowedRoles": [
-        "authenticated"
+        "cdsuser"
       ]
     },
     {
